@@ -1,10 +1,9 @@
-# Gradients
-Showcasing the power of gradient learning
+# Example-level gradient analysis
+
+Experiments with **per-example gradients** on a small 2D `Perceptron`: how gradient information at the training-example level reflects each point’s contribution to learning.
 
 ### Summary
-This notebook contains a series of experiments conducted using a simple `Perceptron` model and a small variety of 2D datasets to illustrate the power of the gradient information when attributed at the example level.
-
-This information can basically determine the importance (or, contribution) of each training example to the learning process.
+The notebook walks through a simple `Perceptron` on synthetic 2D datasets and inspects gradient norms (and related quantities) **per training example**, to relate local gradient signal to how much each example shapes the update.
 
 ### How to
-Open `Gradients.ipynb` and explore its contents.
+Open `example-level-gradient-analysis.ipynb` and run the cells top to bottom.
